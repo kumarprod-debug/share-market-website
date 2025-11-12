@@ -1,71 +1,55 @@
-// ✅ Replace with your RapidAPI Key
 const apiKey = "a34Acd6cb5msh33789bb5ade5caap1567b5jsn15a169906934";
-
-// ✅ Use alternate CORS proxy (more reliable for GitHub Pages)
 const proxyUrl = "https://api.allorigins.win/raw?url=";
+const defaultStocks = ["RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS"];
+const stockCards = document.getElementById("stockCards");
 
-// ✅ Default stock list to show at start
-const defaultStocks = ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS"];
+async function fetchStock(symbol) {
+  const url = `${proxyUrl}https://yh-finance.p.rapidapi.com/stock/v2/get-summary?symbol=${symbol}&region=IN`;
+  const options = {
+    method: "GET",
+    headers: {
+      "x-rapidapi-key": apiKey,
+      "x-rapidapi-host": "yh-finance.p.rapidapi.com",
+    },
+  };
+  const res = await fetch(url, options);
+  return res.json();
+}
 
-// Function to fetch stock data
-async function fetchStockData(symbols) {
-  const container = document.getElementById("stock-container");
-  container.innerHTML = "<p>Loading data...</p>";
+async function loadStocks() {
+  stockCards.innerHTML = "";
+  for (let stock of defaultStocks) {
+    const data = await fetchStock(stock);
+    const name = data.price?.shortName || stock;
+    const price = data.price?.regularMarketPrice?.raw || "N/A";
+    const change = data.price?.regularMarketChangePercent?.fmt || "0%";
+    const color = change.startsWith("-") ? "text-red-500" : "text-green-600";
 
-  try {
-    const promises = symbols.map(async (symbol) => {
-      const url = `${proxyUrl}https://yahoo-finance15.p.rapidapi.com/api/yahoo/qu/quote/${symbol}/financial-data`;
-      const options = {
-        method: "GET",
-        headers: {
-          "x-rapidapi-host": "yahoo-finance15.p.rapidapi.com",
-          "x-rapidapi-key": apiKey,
-        },
-      };
-
-      const res = await fetch(url, options);
-      const data = await res.json();
-
-      const name = symbol.replace(".NS", "");
-      const price = data?.financialData?.currentPrice?.fmt || "N/A";
-      const target = data?.financialData?.targetMeanPrice?.fmt || "N/A";
-      const recommendation = data?.financialData?.recommendationKey || "N/A";
-
-      return `
-        <div class="stock-card">
-          <h3>${name}</h3>
-          <p><strong>Price:</strong> ₹${price}</p>
-          <p><strong>Target:</strong> ₹${target}</p>
-          <p><strong>Recommendation:</strong> ${recommendation.toUpperCase()}</p>
-        </div>
-      `;
-    });
-
-    const results = await Promise.all(promises);
-    container.innerHTML = results.join("");
-  } catch (error) {
-    console.error("Error loading stock data:", error);
-    container.innerHTML = `<p style="color:red;">⚠️ Unable to load stock data. Check your API key or network.</p>`;
+    stockCards.innerHTML += `
+      <div class="card">
+        <h3 class="text-lg font-bold">${name}</h3>
+        <p class="text-2xl font-semibold text-green-700">₹${price}</p>
+        <p class="${color}">${change}</p>
+        <p class="text-sm text-gray-500">${stock}</p>
+      </div>`;
   }
 }
 
-// ✅ Search functionality
-document.getElementById("search-btn").addEventListener("click", () => {
-  const input = document.getElementById("stock-input").value.trim().toUpperCase();
-  if (input) {
-    const symbol = input.endsWith(".NS") ? input : `${input}.NS`;
-    fetchStockData([symbol]);
-  } else {
-    alert("Please enter a stock symbol (e.g., RELIANCE or INFY)");
-  }
-});
+loadStocks();
 
-// ✅ Press Enter to search
-document.getElementById("stock-input").addEventListener("keypress", (e) => {
-  if (e.key === "Enter") {
-    document.getElementById("search-btn").click();
-  }
+// Chart placeholder
+const ctx = document.getElementById("stockChart").getContext("2d");
+new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    datasets: [{
+      label: "Stock Movement (Sample Data)",
+      data: [110, 115, 112, 118, 120],
+      borderWidth: 2,
+      borderColor: "#2563eb",
+      fill: false
+    }]
+  },
+  options: { responsive: true }
 });
-
-// ✅ Default load
-fetchStockData(defaultStocks);
