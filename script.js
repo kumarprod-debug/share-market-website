@@ -1,4 +1,4 @@
-const apiKey = "YOUR_RAPIDAPI_KEY";
+const apiKey = "a344cd6cb5msh33789bb5ade5caap1567b5jsn15a169906934";
 const stocks = ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS"];
 
 async function fetchStockData() {
