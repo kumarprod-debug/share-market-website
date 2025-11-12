@@ -14,9 +14,29 @@
   </header>
 
   <section id="stocks">
-    <h2>Top Indian Stocks</h2>
-    <div id="stock-container" class="stock-grid">
-    </div>
+   <section id="stocks">
+  <h2>Top Indian Stocks</h2>
+
+  <!-- 🔍 Stock Search Box -->
+  <div class="search-container" style="margin: 20px auto; text-align:center;">
+    <input 
+      type="text" 
+      id="stock-input" 
+      placeholder="Enter stock symbol (e.g., RELIANCE.NS)" 
+      style="padding:10px; width:280px; border-radius:6px; border:1px solid #ccc;"
+    >
+    <button 
+      id="search-btn" 
+      style="padding:10px 15px; border:none; background:#0a66c2; color:white; border-radius:6px; cursor:pointer; margin-left:5px;">
+      Search
+    </button>
+  </div>
+
+  <div id="stock-container" class="stock-grid">
+    <!-- Live stock data cards will appear here -->
+  </div>
+</section>
+
   </section>
 
   <section class="ad-section">
