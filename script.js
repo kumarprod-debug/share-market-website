@@ -1,36 +1,71 @@
-const apiKey = "a344cd6cb5msh33789bb5ade5caap1567b5jsn15a169906934";
-const stocks = ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS"];
+// ✅ Replace with your RapidAPI Key
+const apiKey = ""a344cd6cb5msh33789bb5ade5caap1567b5jsn15a169906934";
 
-async function fetchStockData() {
+// ✅ CORS proxy to avoid GitHub Pages API block
+const proxyUrl = "https://corsproxy.io/?";
+
+// ✅ Default stock list to show at start
+const defaultStocks = ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS"];
+
+// Function to fetch stock data
+async function fetchStockData(symbols) {
   const container = document.getElementById("stock-container");
   container.innerHTML = "<p>Loading data...</p>";
 
-  const promises = stocks.map(async (symbol) => {
-    const url = `https://yahoo-finance15.p.rapidapi.com/api/yahoo/qu/quote/${symbol}/financial-data`;
-    const options = {
-      method: "GET",
-      headers: {
-        "x-rapidapi-host": "yahoo-finance15.p.rapidapi.com",
-        "x-rapidapi-key": apiKey,
-      },
-    };
+  try {
+    const promises = symbols.map(async (symbol) => {
+      const url = `${proxyUrl}https://yahoo-finance15.p.rapidapi.com/api/yahoo/qu/quote/${symbol}/financial-data`;
+      const options = {
+        method: "GET",
+        headers: {
+          "x-rapidapi-host": "yahoo-finance15.p.rapidapi.com",
+          "x-rapidapi-key": apiKey,
+        },
+      };
 
-    const res = await fetch(url, options);
-    const data = await res.json();
-    const price = data.financialData.currentPrice.fmt;
-    const name = symbol.replace(".NS", "");
+      const res = await fetch(url, options);
+      const data = await res.json();
 
-    return `
-      <div class="stock-card">
-        <h3>${name}</h3>
-        <p><strong>Price:</strong> ₹${price}</p>
-        <p><strong>Exchange:</strong> NSE</p>
-      </div>
-    `;
-  });
+      const name = symbol.replace(".NS", "");
+      const price = data?.financialData?.currentPrice?.fmt || "N/A";
+      const target = data?.financialData?.targetMeanPrice?.fmt || "N/A";
+      const recommendation = data?.financialData?.recommendationKey || "N/A";
 
-  const results = await Promise.all(promises);
-  container.innerHTML = results.join("");
+      return `
+        <div class="stock-card">
+          <h3>${name}</h3>
+          <p><strong>Price:</strong> ₹${price}</p>
+          <p><strong>Target:</strong> ₹${target}</p>
+          <p><strong>Recommendation:</strong> ${recommendation.toUpperCase()}</p>
+        </div>
+      `;
+    });
+
+    const results = await Promise.all(promises);
+    container.innerHTML = results.join("");
+  } catch (error) {
+    console.error("Error loading stock data:", error);
+    container.innerHTML = `<p style="color:red;">⚠️ Unable to load stock data. Check your API key or symbol.</p>`;
+  }
 }
 
-fetchStockData();
+// ✅ Default load (top stocks)
+fetchStockData(defaultStocks);
+
+// ✅ Search functionality
+document.getElementById("search-btn").addEventListener("click", () => {
+  const input = document.getElementById("stock-input").value.trim().toUpperCase();
+  if (input) {
+    const symbol = input.endsWith(".NS") ? input : `${input}.NS`;
+    fetchStockData([symbol]);
+  } else {
+    alert("Please enter a stock symbol (e.g., RELIANCE or INFY)");
+  }
+});
+
+// ✅ Optional: Press Enter to search
+document.getElementById("stock-input").addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    document.getElementById("search-btn").click();
+  }
+});
