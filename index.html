@@ -1,73 +1,128 @@
-// ✅ Replace with your actual RapidAPI Key
-const apiKey = "a34Acd6cb5msh33789bb5ade5caap1567b5jsn15a169906934";
-
-// ✅ Use a reliable CORS proxy (works on GitHub Pages)
-const proxyUrl = "https://api.allorigins.win/raw?url=";
-
-// ✅ Default stock list
-const defaultStocks = ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS"];
-
-// Fetch stock data
-async function fetchStockData(symbols) {
-  const container = document.getElementById("stock-container");
-  container.innerHTML = "<p>Loading data...</p>";
-
-  try {
-    const promises = symbols.map(async (symbol) => {
-      const url = `${proxyUrl}https://yahoo-finance15.p.rapidapi.com/api/yahoo/qu/quote/${symbol}/financial-data`;
-      const res = await fetch(url, {
-        method: "GET",
-        headers: {
-          "x-rapidapi-host": "yahoo-finance15.p.rapidapi.com",
-          "x-rapidapi-key": apiKey
-        }
-      });
-
-      const data = await res.json();
-      const name = symbol.replace(".NS", "");
-      const price = data?.financialData?.currentPrice?.fmt || "N/A";
-      const target = data?.financialData?.targetMeanPrice?.fmt || "N/A";
-      const recommendation = data?.financialData?.recommendationKey || "N/A";
-
-      return `
-        <div class="stock-card">
-          <h3>${name}</h3>
-          <p><strong>Price:</strong> ₹${price}</p>
-          <p><strong>Target:</strong> ₹${target}</p>
-          <p><strong>Recommendation:</strong> ${recommendation.toUpperCase()}</p>
-        </div>
-      `;
-    });
-
-    const results = await Promise.all(promises);
-    container.innerHTML = results.join("");
-  } catch (error) {
-    console.error("Error loading stock data:", error);
-    container.innerHTML = `<p style="color:red;">⚠️ Unable to load stock data. Please check your internet connection or API key.</p>`;
-  }
-}
-
-// ✅ Search button click
-document.addEventListener("DOMContentLoaded", () => {
-  const searchBtn = document.getElementById("search-btn");
-  const stockInput = document.getElementById("stock-input");
-
-  searchBtn.addEventListener("click", () => {
-    const input = stockInput.value.trim().toUpperCase();
-    if (!input) {
-      alert("Please enter a stock symbol (e.g., RELIANCE or INFY)");
-      return;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Indian Share Market</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
     }
 
-    const symbol = input.endsWith(".NS") ? input : `${input}.NS`;
-    fetchStockData([symbol]);
-  });
+    header {
+      background-color: #0a66c2;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
 
-  // Press Enter to search
-  stockInput.addEventListener("keypress", (e) => {
-    if (e.key === "Enter") searchBtn.click();
-  });
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
 
-  // Load default stocks on page load
-  fetchStockData(defaultStocks);
-});
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-top: 30px;
+    }
+
+    .search-container {
+      text-align: center;
+      margin: 20px;
+    }
+
+    #stock-input {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    #search-btn {
+      padding: 10px 15px;
+      background: #0a66c2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    #search-btn:hover {
+      background: #084b8a;
+    }
+
+    #stock-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px auto;
+      max-width: 1000px;
+      text-align: center;
+    }
+
+    .stock-card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      width: 220px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.2s ease;
+    }
+
+    .stock-card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    📊 Live Indian Share Market
+    <p style="font-size: 0.9rem; font-weight: normal; margin: 5px 0;">
+      Real-time prices powered by Yahoo Finance API
+    </p>
+  </header>
+
+  <main>
+    <h2>Top Indian Stocks</h2>
+
+    <div class="search-container">
+      <input
+        type="text"
+        id="stock-input"
+        placeholder="Search any Indian stock (e.g., RELIANCE)"
+      />
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div id="stock-container">
+      <p>Loading data...</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Sponsored Ads: Google AdSense or Affiliate Banner</p>
+    <p>© 2025 Live Indian Share Market</p>
+  </footer>
+
+  <!-- ✅ Link your working JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
