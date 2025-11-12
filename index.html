@@ -3,126 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Live Indian Share Market</title>
+  <title>Kumar Investments | Stock Market Dashboard</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f5f7fa;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #0a66c2;
-      color: white;
-      text-align: center;
-      padding: 20px 0;
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-
-    h2 {
-      text-align: center;
-      color: #333;
-      margin-top: 30px;
-    }
-
-    .search-container {
-      text-align: center;
-      margin: 20px;
-    }
-
-    #stock-input {
-      padding: 10px;
-      width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 1rem;
-    }
-
-    #search-btn {
-      padding: 10px 15px;
-      background: #0a66c2;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: 0.2s ease;
-    }
-
-    #search-btn:hover {
-      background: #084b8a;
-    }
-
-    #stock-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 30px auto;
-      max-width: 1000px;
-      text-align: center;
-    }
-
-    .stock-card {
-      background: white;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 10px;
-      width: 220px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: 0.2s ease;
-    }
-
-    .stock-card:hover {
-      transform: scale(1.05);
-    }
-
-    footer {
-      text-align: center;
-      margin: 40px 0 20px;
-      color: #777;
-    }
-  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="script.js"></script>
 </head>
 
 <body>
-  <header>
-    📊 Live Indian Share Market
-    <p style="font-size: 0.9rem; font-weight: normal; margin: 5px 0;">
-      Real-time prices powered by Yahoo Finance API
-    </p>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo-container">
+      <img src="assets/logo.png" alt="Business Logo" class="logo" />
+      <h1>Kumar Investments</h1>
+    </div>
+    <input id="searchStock" type="text" placeholder="Search Stock (e.g. RELIANCE.NS)" />
   </header>
 
+  <!-- Main Section -->
   <main>
-    <h2>Top Indian Stocks</h2>
+    <section id="stockCards" class="stock-cards"></section>
 
-    <div class="search-container">
-      <input
-        type="text"
-        id="stock-input"
-        placeholder="Search any Indian stock (e.g., RELIANCE)"
-      />
-      <button id="search-btn">Search</button>
-    </div>
+    <section class="chart-section">
+      <h2>📊 Live Stock Chart</h2>
+      <canvas id="stockChart" height="100"></canvas>
+    </section>
 
-    <div id="stock-container">
-      <p>Loading data...</p>
-    </div>
+    <!-- Ads -->
+    <section class="ads-section">
+      <h2>Sponsored</h2>
+      <div class="ad-box">Ad Slot 1</div>
+      <div class="ad-box">Ad Slot 2</div>
+    </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>Sponsored Ads: Google AdSense or Affiliate Banner</p>
-    <p>© 2025 Live Indian Share Market</p>
+    © 2025 Kumar Investments | Bangalore Office | All Rights Reserved
   </footer>
-
-  <!-- ✅ Link your working JavaScript file -->
-  <script src="script.js"></script>
 </body>
 </html>
