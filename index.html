@@ -1,123 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Live Share Market Tracker - India</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+// ✅ Replace with your actual RapidAPI Key
+const apiKey = "a34Acd6cb5msh33789bb5ade5caap1567b5jsn15a169906934";
 
-<body>
-  <header>
-    <h1>📊 Live Indian Share Market</h1>
-    <p>Real-time prices powered by Yahoo Finance API</p>
-  </header>
+// ✅ Use a reliable CORS proxy (works on GitHub Pages)
+const proxyUrl = "https://api.allorigins.win/raw?url=";
 
-  <section id="stocks">
-   <section id="stocks">
-  <h2>Top Indian Stocks</h2>
+// ✅ Default stock list
+const defaultStocks = ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS"];
 
-  <!-- 🔍 Stock Search Box -->
-  <div class="search-container" style="margin: 20px auto; text-align:center;">
-    <input 
-      type="text" 
-      id="stock-input" 
-      placeholder="Enter stock symbol (e.g., RELIANCE.NS)" 
-      style="padding:10px; width:280px; border-radius:6px; border:1px solid #ccc;"
-    >
-    <button 
-      id="search-btn" 
-      style="padding:10px 15px; border:none; background:#0a66c2; color:white; border-radius:6px; cursor:pointer; margin-left:5px;">
-      Search
-    </button>
-  </div>
+// Fetch stock data
+async function fetchStockData(symbols) {
+  const container = document.getElementById("stock-container");
+  container.innerHTML = "<p>Loading data...</p>";
 
-  <div id="stock-container" class="stock-grid">
-    <!-- Live stock data cards will appear here -->
-  </div>
-</section>
+  try {
+    const promises = symbols.map(async (symbol) => {
+      const url = `${proxyUrl}https://yahoo-finance15.p.rapidapi.com/api/yahoo/qu/quote/${symbol}/financial-data`;
+      const res = await fetch(url, {
+        method: "GET",
+        headers: {
+          "x-rapidapi-host": "yahoo-finance15.p.rapidapi.com",
+          "x-rapidapi-key": apiKey
+        }
+      });
 
-  </section>
+      const data = await res.json();
+      const name = symbol.replace(".NS", "");
+      const price = data?.financialData?.currentPrice?.fmt || "N/A";
+      const target = data?.financialData?.targetMeanPrice?.fmt || "N/A";
+      const recommendation = data?.financialData?.recommendationKey || "N/A";
 
-  <section class="ad-section">
-    <h3>Sponsored Ads</h3>
-    <div class="ad-box">
-      <p>Advertisement space (Google AdSense or Affiliate banner)</p>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXX" data-ad-slot="YYYYYYY" data-ad-format="auto"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
-  </section>
+      return `
+        <div class="stock-card">
+          <h3>${name}</h3>
+          <p><strong>Price:</strong> ₹${price}</p>
+          <p><strong>Target:</strong> ₹${target}</p>
+          <p><strong>Recommendation:</strong> ${recommendation.toUpperCase()}</p>
+        </div>
+      `;
+    });
 
-  <footer>
-    <p>© 2025 Live Share Market Tracker | Data by Yahoo Finance API</p>
-  <p>
-    © 2025 Live Indian Share Market |
-    <a href="about.html">About</a> |
-    <a href="contact.html">Contact</a> |
-    <a href="privacy.html">Privacy Policy</a>
-  </p>
+    const results = await Promise.all(promises);
+    container.innerHTML = results.join("");
+  } catch (error) {
+    console.error("Error loading stock data:", error);
+    container.innerHTML = `<p style="color:red;">⚠️ Unable to load stock data. Please check your internet connection or API key.</p>`;
+  }
+}
 
+// ✅ Search button click
+document.addEventListener("DOMContentLoaded", () => {
+  const searchBtn = document.getElementById("search-btn");
+  const stockInput = document.getElementById("stock-input");
 
-  </footer>
+  searchBtn.addEventListener("click", () => {
+    const input = stockInput.value.trim().toUpperCase();
+    if (!input) {
+      alert("Please enter a stock symbol (e.g., RELIANCE or INFY)");
+      return;
+    }
 
-  <script src="script.js"></script>
+    const symbol = input.endsWith(".NS") ? input : `${input}.NS`;
+    fetchStockData([symbol]);
+  });
 
-  <!-- 📈 Live Market Charts -->
-<section id="charts" style="text-align:center; margin:40px 0;">
-  <h2>📈 Live Market Charts (NIFTY & SENSEX)</h2>
+  // Press Enter to search
+  stockInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") searchBtn.click();
+  });
 
-  <!-- NIFTY 50 -->
-  <div class="chart-container" style="margin-top:20px;">
-    <h3>NIFTY 50</h3>
-    <div class="tradingview-widget-container">
-      <div id="tradingview_nifty"></div>
-      <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-      <script type="text/javascript">
-        new TradingView.widget({
-          "width": "100%",
-          "height": 400,
-          "symbol": "NSE:NIFTY",
-          "interval": "15",
-          "timezone": "Asia/Kolkata",
-          "theme": "light",
-          "style": "1",
-          "locale": "en",
-          "toolbar_bg": "#f1f3f6",
-          "enable_publishing": false,
-          "hide_legend": false,
-          "save_image": false,
-          "container_id": "tradingview_nifty"
-        });
-      </script>
-    </div>
-  </div>
-
-  <!-- SENSEX -->
-  <div class="chart-container" style="margin-top:40px;">
-    <h3>SENSEX</h3>
-    <div class="tradingview-widget-container">
-      <div id="tradingview_sensex"></div>
-      <script type="text/javascript">
-        new TradingView.widget({
-          "width": "100%",
-          "height": 400,
-          "symbol": "BSE:SENSEX",
-          "interval": "15",
-          "timezone": "Asia/Kolkata",
-          "theme": "light",
-          "style": "1",
-          "locale": "en",
-          "toolbar_bg": "#f1f3f6",
-          "enable_publishing": false,
-          "hide_legend": false,
-          "save_image": false,
-          "container_id": "tradingview_sensex"
-        });
-      </script>
-    </div>
-  </div>
-</section>
-
-</body>
-</html>
+  // Load default stocks on page load
+  fetchStockData(defaultStocks);
+});
