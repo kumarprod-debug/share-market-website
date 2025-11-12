@@ -1,0 +1,2010 @@
+[
+  {
+    "symbol": "NIFTY 500.NS",
+    "name": "NIFTY 500"
+  },
+  {
+    "symbol": "KIRLOSENG.NS",
+    "name": "KIRLOSENGEQN"
+  },
+  {
+    "symbol": "SYRMA.NS",
+    "name": "SYRMAEQN"
+  },
+  {
+    "symbol": "APARINDS.NS",
+    "name": "APARINDSEQN"
+  },
+  {
+    "symbol": "AAVAS.NS",
+    "name": "AAVASEQN"
+  },
+  {
+    "symbol": "GESHIP.NS",
+    "name": "GESHIPEQN"
+  },
+  {
+    "symbol": "TARIL.NS",
+    "name": "TARILEQN"
+  },
+  {
+    "symbol": "BLS.NS",
+    "name": "BLSEQN"
+  },
+  {
+    "symbol": "BSE.NS",
+    "name": "BSEEQN"
+  },
+  {
+    "symbol": "FLUOROCHEM.NS",
+    "name": "FLUOROCHEMEQN"
+  },
+  {
+    "symbol": "ADANIENT.NS",
+    "name": "ADANIENTEQN"
+  },
+  {
+    "symbol": "FSL.NS",
+    "name": "FSLEQN"
+  },
+  {
+    "symbol": "SONATSOFTW.NS",
+    "name": "SONATSOFTWEQN"
+  },
+  {
+    "symbol": "EIDPARRY.NS",
+    "name": "EIDPARRYEQN"
+  },
+  {
+    "symbol": "TEJASNET.NS",
+    "name": "TEJASNETEQN"
+  },
+  {
+    "symbol": "TATAELXSI.NS",
+    "name": "TATAELXSIEQN"
+  },
+  {
+    "symbol": "GILLETTE.NS",
+    "name": "GILLETTEEQN"
+  },
+  {
+    "symbol": "KEC.NS",
+    "name": "KECEQN"
+  },
+  {
+    "symbol": "RELINFRA.NS",
+    "name": "RELINFRABEN"
+  },
+  {
+    "symbol": "JYOTICNC.NS",
+    "name": "JYOTICNCEQN"
+  },
+  {
+    "symbol": "CAMS.NS",
+    "name": "CAMSEQN"
+  },
+  {
+    "symbol": "TECHM.NS",
+    "name": "TECHMEQN"
+  },
+  {
+    "symbol": "IFCI.NS",
+    "name": "IFCIEQN"
+  },
+  {
+    "symbol": "HEXT.NS",
+    "name": "HEXTEQN"
+  },
+  {
+    "symbol": "ADANIGREEN.NS",
+    "name": "ADANIGREENEQN"
+  },
+  {
+    "symbol": "PRAJIND.NS",
+    "name": "PRAJINDEQN"
+  },
+  {
+    "symbol": "RRKABEL.NS",
+    "name": "RRKABELEQN"
+  },
+  {
+    "symbol": "AGARWALEYE.NS",
+    "name": "AGARWALEYEEQN"
+  },
+  {
+    "symbol": "INDUSINDBK.NS",
+    "name": "INDUSINDBKEQN"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "name": "REDINGTONEQN"
+  },
+  {
+    "symbol": "TITAGARH.NS",
+    "name": "TITAGARHEQN"
+  },
+  {
+    "symbol": "ITI.NS",
+    "name": "ITIEQN"
+  },
+  {
+    "symbol": "OLAELEC.NS",
+    "name": "OLAELECBEN"
+  },
+  {
+    "symbol": "AARTIIND.NS",
+    "name": "AARTIINDEQN"
+  },
+  {
+    "symbol": "ONESOURCE.NS",
+    "name": "ONESOURCEEQN"
+  },
+  {
+    "symbol": "SOLARINDS.NS",
+    "name": "SOLARINDSEQN"
+  },
+  {
+    "symbol": "SCHAEFFLER.NS",
+    "name": "SCHAEFFLEREQN"
+  },
+  {
+    "symbol": "BSOFT.NS",
+    "name": "BSOFTEQN"
+  },
+  {
+    "symbol": "MPHASIS.NS",
+    "name": "MPHASISEQN"
+  },
+  {
+    "symbol": "ABFRL.NS",
+    "name": "ABFRLEQN"
+  },
+  {
+    "symbol": "KPITTECH.NS",
+    "name": "KPITTECHEQN"
+  },
+  {
+    "symbol": "ZEEL.NS",
+    "name": "ZEELEQN"
+  },
+  {
+    "symbol": "AEGISLOG.NS",
+    "name": "AEGISLOGEQN"
+  },
+  {
+    "symbol": "TCS.NS",
+    "name": "TCSEQN"
+  },
+  {
+    "symbol": "LTIM.NS",
+    "name": "LTIMEQN"
+  },
+  {
+    "symbol": "TRIDENT.NS",
+    "name": "TRIDENTEQN"
+  },
+  {
+    "symbol": "IPCALAB.NS",
+    "name": "IPCALABEQN"
+  },
+  {
+    "symbol": "TATATECH.NS",
+    "name": "TATATECHEQN"
+  },
+  {
+    "symbol": "MFSL.NS",
+    "name": "MFSLEQN"
+  },
+  {
+    "symbol": "COCHINSHIP.NS",
+    "name": "COCHINSHIPEQN"
+  },
+  {
+    "symbol": "ENDURANCE.NS",
+    "name": "ENDURANCEEQN"
+  },
+  {
+    "symbol": "CDSL.NS",
+    "name": "CDSLEQN"
+  },
+  {
+    "symbol": "WOCKPHARMA.NS",
+    "name": "WOCKPHARMAEQN"
+  },
+  {
+    "symbol": "APOLLOTYRE.NS",
+    "name": "APOLLOTYREEQN"
+  },
+  {
+    "symbol": "LTTS.NS",
+    "name": "LTTSEQN"
+  },
+  {
+    "symbol": "FACT.NS",
+    "name": "FACTEQN"
+  },
+  {
+    "symbol": "BLUEJET.NS",
+    "name": "BLUEJETEQN"
+  },
+  {
+    "symbol": "TRIVENI.NS",
+    "name": "TRIVENIEQN"
+  },
+  {
+    "symbol": "CHALET.NS",
+    "name": "CHALETEQN"
+  },
+  {
+    "symbol": "CANBK.NS",
+    "name": "CANBKEQN"
+  },
+  {
+    "symbol": "GLAXO.NS",
+    "name": "GLAXOEQN"
+  },
+  {
+    "symbol": "ZENSARTECH.NS",
+    "name": "ZENSARTECHEQN"
+  },
+  {
+    "symbol": "JKTYRE.NS",
+    "name": "JKTYREEQN"
+  },
+  {
+    "symbol": "NETWEB.NS",
+    "name": "NETWEBEQN"
+  },
+  {
+    "symbol": "ANGELONE.NS",
+    "name": "ANGELONEEQN"
+  },
+  {
+    "symbol": "SCI.NS",
+    "name": "SCIEQN"
+  },
+  {
+    "symbol": "PREMIERENE.NS",
+    "name": "PREMIERENEEQN"
+  },
+  {
+    "symbol": "ATGL.NS",
+    "name": "ATGLEQN"
+  },
+  {
+    "symbol": "NATCOPHARM.NS",
+    "name": "NATCOPHARMEQN"
+  },
+  {
+    "symbol": "ECLERX.NS",
+    "name": "ECLERXEQN"
+  },
+  {
+    "symbol": "360ONE.NS",
+    "name": "360ONEEQN"
+  },
+  {
+    "symbol": "RCF.NS",
+    "name": "RCFEQN"
+  },
+  {
+    "symbol": "ALKYLAMINE.NS",
+    "name": "ALKYLAMINEEQN"
+  },
+  {
+    "symbol": "VOLTAS.NS",
+    "name": "VOLTASEQN"
+  },
+  {
+    "symbol": "MINDACORP.NS",
+    "name": "MINDACORPEQN"
+  },
+  {
+    "symbol": "GLENMARK.NS",
+    "name": "GLENMARKEQN"
+  },
+  {
+    "symbol": "GRAVITA.NS",
+    "name": "GRAVITAEQN"
+  },
+  {
+    "symbol": "ONGC.NS",
+    "name": "ONGCEQN"
+  },
+  {
+    "symbol": "OIL.NS",
+    "name": "OILEQN"
+  },
+  {
+    "symbol": "KIMS.NS",
+    "name": "KIMSEQN"
+  },
+  {
+    "symbol": "BALKRISIND.NS",
+    "name": "BALKRISINDEQN"
+  },
+  {
+    "symbol": "TTML.NS",
+    "name": "TTMLEQN"
+  },
+  {
+    "symbol": "RPOWER.NS",
+    "name": "RPOWEREQN"
+  },
+  {
+    "symbol": "CLEAN.NS",
+    "name": "CLEANEQN"
+  },
+  {
+    "symbol": "HONASA.NS",
+    "name": "HONASAEQN"
+  },
+  {
+    "symbol": "IREDA.NS",
+    "name": "IREDAEQN"
+  },
+  {
+    "symbol": "INFY.NS",
+    "name": "INFYEQN"
+  },
+  {
+    "symbol": "DBREALTY.NS",
+    "name": "DBREALTYEQN"
+  },
+  {
+    "symbol": "PERSISTENT.NS",
+    "name": "PERSISTENTEQN"
+  },
+  {
+    "symbol": "ADANIPORTS.NS",
+    "name": "ADANIPORTSEQN"
+  },
+  {
+    "symbol": "OFSS.NS",
+    "name": "OFSSEQN"
+  },
+  {
+    "symbol": "UPL.NS",
+    "name": "UPLEQN"
+  },
+  {
+    "symbol": "FIRSTCRY.NS",
+    "name": "FIRSTCRYEQN"
+  },
+  {
+    "symbol": "HINDALCO.NS",
+    "name": "HINDALCOEQN"
+  },
+  {
+    "symbol": "COFORGE.NS",
+    "name": "COFORGEEQN"
+  },
+  {
+    "symbol": "PETRONET.NS",
+    "name": "PETRONETEQN"
+  },
+  {
+    "symbol": "CREDITACC.NS",
+    "name": "CREDITACCEQN"
+  },
+  {
+    "symbol": "NAUKRI.NS",
+    "name": "NAUKRIEQN"
+  },
+  {
+    "symbol": "AIAENG.NS",
+    "name": "AIAENGEQN"
+  },
+  {
+    "symbol": "WIPRO.NS",
+    "name": "WIPROEQN"
+  },
+  {
+    "symbol": "ZYDUSLIFE.NS",
+    "name": "ZYDUSLIFEEQN"
+  },
+  {
+    "symbol": "TATACHEM.NS",
+    "name": "TATACHEMEQN"
+  },
+  {
+    "symbol": "HYUNDAI.NS",
+    "name": "HYUNDAIEQN"
+  },
+  {
+    "symbol": "ASTRAL.NS",
+    "name": "ASTRALEQN"
+  },
+  {
+    "symbol": "NEWGEN.NS",
+    "name": "NEWGENEQN"
+  },
+  {
+    "symbol": "INDIAMART.NS",
+    "name": "INDIAMARTEQN"
+  },
+  {
+    "symbol": "ETERNAL.NS",
+    "name": "ETERNALEQN"
+  },
+  {
+    "symbol": "CYIENT.NS",
+    "name": "CYIENTEQN"
+  },
+  {
+    "symbol": "LODHA.NS",
+    "name": "LODHAEQN"
+  },
+  {
+    "symbol": "RHIM.NS",
+    "name": "RHIMEQN"
+  },
+  {
+    "symbol": "PGHH.NS",
+    "name": "PGHHEQN"
+  },
+  {
+    "symbol": "TRENT.NS",
+    "name": "TRENTEQN"
+  },
+  {
+    "symbol": "ELECON.NS",
+    "name": "ELECONEQN"
+  },
+  {
+    "symbol": "JIOFIN.NS",
+    "name": "JIOFINEQN"
+  },
+  {
+    "symbol": "NMDC.NS",
+    "name": "NMDCEQN"
+  },
+  {
+    "symbol": "HDFCLIFE.NS",
+    "name": "HDFCLIFEEQN"
+  },
+  {
+    "symbol": "OLECTRA.NS",
+    "name": "OLECTRAEQN"
+  },
+  {
+    "symbol": "DRREDDY.NS",
+    "name": "DRREDDYEQN"
+  },
+  {
+    "symbol": "HAPPSTMNDS.NS",
+    "name": "HAPPSTMNDSEQN"
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "name": "RELIANCEEQN"
+  },
+  {
+    "symbol": "LEMONTREE.NS",
+    "name": "LEMONTREEEQN"
+  },
+  {
+    "symbol": "HCLTECH.NS",
+    "name": "HCLTECHEQN"
+  },
+  {
+    "symbol": "ALKEM.NS",
+    "name": "ALKEMEQN"
+  },
+  {
+    "symbol": "FORCEMOT.NS",
+    "name": "FORCEMOTEQN"
+  },
+  {
+    "symbol": "ICICIPRULI.NS",
+    "name": "ICICIPRULIEQN"
+  },
+  {
+    "symbol": "SBICARD.NS",
+    "name": "SBICARDEQN"
+  },
+  {
+    "symbol": "SUNDRMFAST.NS",
+    "name": "SUNDRMFASTEQN"
+  },
+  {
+    "symbol": "KFINTECH.NS",
+    "name": "KFINTECHEQN"
+  },
+  {
+    "symbol": "JUBLINGREA.NS",
+    "name": "JUBLINGREAEQN"
+  },
+  {
+    "symbol": "GODREJPROP.NS",
+    "name": "GODREJPROPEQN"
+  },
+  {
+    "symbol": "MGL.NS",
+    "name": "MGLEQN"
+  },
+  {
+    "symbol": "SUNPHARMA.NS",
+    "name": "SUNPHARMAEQN"
+  },
+  {
+    "symbol": "ENRIN.NS",
+    "name": "ENRINEQN"
+  },
+  {
+    "symbol": "ZENTEC.NS",
+    "name": "ZENTECEQN"
+  },
+  {
+    "symbol": "RAILTEL.NS",
+    "name": "RAILTELEQN"
+  },
+  {
+    "symbol": "ADANIENSOL.NS",
+    "name": "ADANIENSOLEQN"
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "name": "BHARTIARTLEQN"
+  },
+  {
+    "symbol": "KIRLOSBROS.NS",
+    "name": "KIRLOSBROSEQN"
+  },
+  {
+    "symbol": "BAJAJFINSV.NS",
+    "name": "BAJAJFINSVEQN"
+  },
+  {
+    "symbol": "AMBUJACEM.NS",
+    "name": "AMBUJACEMEQN"
+  },
+  {
+    "symbol": "GRANULES.NS",
+    "name": "GRANULESEQN"
+  },
+  {
+    "symbol": "AFCONS.NS",
+    "name": "AFCONSEQN"
+  },
+  {
+    "symbol": "ABLBL.NS",
+    "name": "ABLBLEQN"
+  },
+  {
+    "symbol": "CONCOR.NS",
+    "name": "CONCOREQN"
+  },
+  {
+    "symbol": "HEROMOTOCO.NS",
+    "name": "HEROMOTOCOEQN"
+  },
+  {
+    "symbol": "ICICIGI.NS",
+    "name": "ICICIGIEQN"
+  },
+  {
+    "symbol": "IRCON.NS",
+    "name": "IRCONEQN"
+  },
+  {
+    "symbol": "NIACL.NS",
+    "name": "NIACLEQN"
+  },
+  {
+    "symbol": "SAMMAANCAP.NS",
+    "name": "SAMMAANCAPEQN"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "name": "WELSPUNLIVEQN"
+  },
+  {
+    "symbol": "INDUSTOWER.NS",
+    "name": "INDUSTOWEREQN"
+  },
+  {
+    "symbol": "AUROPHARMA.NS",
+    "name": "AUROPHARMAEQN"
+  },
+  {
+    "symbol": "RADICO.NS",
+    "name": "RADICOEQN"
+  },
+  {
+    "symbol": "PAGEIND.NS",
+    "name": "PAGEINDEQN"
+  },
+  {
+    "symbol": "ACMESOLAR.NS",
+    "name": "ACMESOLAREQN"
+  },
+  {
+    "symbol": "ASTERDM.NS",
+    "name": "ASTERDMEQN"
+  },
+  {
+    "symbol": "ALOKINDS.NS",
+    "name": "ALOKINDSEQN"
+  },
+  {
+    "symbol": "TBOTEK.NS",
+    "name": "TBOTEKEQN"
+  },
+  {
+    "symbol": "ATUL.NS",
+    "name": "ATULEQN"
+  },
+  {
+    "symbol": "JMFINANCIL.NS",
+    "name": "JMFINANCILEQN"
+  },
+  {
+    "symbol": "DEEPAKFERT.NS",
+    "name": "DEEPAKFERTEQN"
+  },
+  {
+    "symbol": "CESC.NS",
+    "name": "CESCEQN"
+  },
+  {
+    "symbol": "BAJFINANCE.NS",
+    "name": "BAJFINANCEEQN"
+  },
+  {
+    "symbol": "LUPIN.NS",
+    "name": "LUPINEQN"
+  },
+  {
+    "symbol": "BANDHANBNK.NS",
+    "name": "BANDHANBNKEQN"
+  },
+  {
+    "symbol": "AADHARHFC.NS",
+    "name": "AADHARHFCEQN"
+  },
+  {
+    "symbol": "SJVN.NS",
+    "name": "SJVNEQN"
+  },
+  {
+    "symbol": "EXIDEIND.NS",
+    "name": "EXIDEINDEQN"
+  },
+  {
+    "symbol": "TIINDIA.NS",
+    "name": "TIINDIAEQN"
+  },
+  {
+    "symbol": "SUMICHEM.NS",
+    "name": "SUMICHEMEQN"
+  },
+  {
+    "symbol": "WAAREEENER.NS",
+    "name": "WAAREEENEREQN"
+  },
+  {
+    "symbol": "MAHABANK.NS",
+    "name": "MAHABANKEQN"
+  },
+  {
+    "symbol": "HAL.NS",
+    "name": "HALEQN"
+  },
+  {
+    "symbol": "SAGILITY.NS",
+    "name": "SAGILITYEQN"
+  },
+  {
+    "symbol": "PTCIL.NS",
+    "name": "PTCILEQN"
+  },
+  {
+    "symbol": "CAMPUS.NS",
+    "name": "CAMPUSEQN"
+  },
+  {
+    "symbol": "PATANJALI.NS",
+    "name": "PATANJALIEQN"
+  },
+  {
+    "symbol": "NSLNISP.NS",
+    "name": "NSLNISPEQN"
+  },
+  {
+    "symbol": "ADANIPOWER.NS",
+    "name": "ADANIPOWEREQN"
+  },
+  {
+    "symbol": "ANANTRAJ.NS",
+    "name": "ANANTRAJEQN"
+  },
+  {
+    "symbol": "ABREL.NS",
+    "name": "ABRELEQN"
+  },
+  {
+    "symbol": "KPIL.NS",
+    "name": "KPILEQN"
+  },
+  {
+    "symbol": "BERGEPAINT.NS",
+    "name": "BERGEPAINTEQN"
+  },
+  {
+    "symbol": "BDL.NS",
+    "name": "BDLEQN"
+  },
+  {
+    "symbol": "GRSE.NS",
+    "name": "GRSEEQN"
+  },
+  {
+    "symbol": "DATAPATTNS.NS",
+    "name": "DATAPATTNSEQN"
+  },
+  {
+    "symbol": "MAZDOCK.NS",
+    "name": "MAZDOCKEQN"
+  },
+  {
+    "symbol": "UNOMINDA.NS",
+    "name": "UNOMINDAEQN"
+  },
+  {
+    "symbol": "POLYCAB.NS",
+    "name": "POLYCABEQN"
+  },
+  {
+    "symbol": "KEI.NS",
+    "name": "KEIEQN"
+  },
+  {
+    "symbol": "JBMA.NS",
+    "name": "JBMAEQN"
+  },
+  {
+    "symbol": "SUNTV.NS",
+    "name": "SUNTVEQN"
+  },
+  {
+    "symbol": "ACC.NS",
+    "name": "ACCEQN"
+  },
+  {
+    "symbol": "LAURUSLABS.NS",
+    "name": "LAURUSLABSEQN"
+  },
+  {
+    "symbol": "FINCABLES.NS",
+    "name": "FINCABLESEQN"
+  },
+  {
+    "symbol": "POONAWALLA.NS",
+    "name": "POONAWALLAEQN"
+  },
+  {
+    "symbol": "CCL.NS",
+    "name": "CCLEQN"
+  },
+  {
+    "symbol": "IGIL.NS",
+    "name": "IGILEQN"
+  },
+  {
+    "symbol": "INDHOTEL.NS",
+    "name": "INDHOTELEQN"
+  },
+  {
+    "symbol": "ENGINERSIN.NS",
+    "name": "ENGINERSINEQN"
+  },
+  {
+    "symbol": "JUBLPHARMA.NS",
+    "name": "JUBLPHARMAEQN"
+  },
+  {
+    "symbol": "AKUMS.NS",
+    "name": "AKUMSEQN"
+  },
+  {
+    "symbol": "STARHEALTH.NS",
+    "name": "STARHEALTHEQN"
+  },
+  {
+    "symbol": "CGCL.NS",
+    "name": "CGCLEQN"
+  },
+  {
+    "symbol": "SARDAEN.NS",
+    "name": "SARDAENEQN"
+  },
+  {
+    "symbol": "ITCHOTELS.NS",
+    "name": "ITCHOTELSEQN"
+  },
+  {
+    "symbol": "DCMSHRIRAM.NS",
+    "name": "DCMSHRIRAMEQN"
+  },
+  {
+    "symbol": "GICRE.NS",
+    "name": "GICREEQN"
+  },
+  {
+    "symbol": "SUZLON.NS",
+    "name": "SUZLONEQN"
+  },
+  {
+    "symbol": "TITAN.NS",
+    "name": "TITANEQN"
+  },
+  {
+    "symbol": "YESBANK.NS",
+    "name": "YESBANKEQN"
+  },
+  {
+    "symbol": "NLCINDIA.NS",
+    "name": "NLCINDIAEQN"
+  },
+  {
+    "symbol": "POWERINDIA.NS",
+    "name": "POWERINDIAEQN"
+  },
+  {
+    "symbol": "MANKIND.NS",
+    "name": "MANKINDEQN"
+  },
+  {
+    "symbol": "ACE.NS",
+    "name": "ACEEQN"
+  },
+  {
+    "symbol": "PFC.NS",
+    "name": "PFCEQN"
+  },
+  {
+    "symbol": "ELGIEQUIP.NS",
+    "name": "ELGIEQUIPEQN"
+  },
+  {
+    "symbol": "RAMCOCEM.NS",
+    "name": "RAMCOCEMEQN"
+  },
+  {
+    "symbol": "LICI.NS",
+    "name": "LICIEQN"
+  },
+  {
+    "symbol": "IRCTC.NS",
+    "name": "IRCTCEQN"
+  },
+  {
+    "symbol": "BHEL.NS",
+    "name": "BHELEQN"
+  },
+  {
+    "symbol": "POWERGRID.NS",
+    "name": "POWERGRIDEQN"
+  },
+  {
+    "symbol": "VIJAYA.NS",
+    "name": "VIJAYAEQN"
+  },
+  {
+    "symbol": "VENTIVE.NS",
+    "name": "VENTIVEEQN"
+  },
+  {
+    "symbol": "HAVELLS.NS",
+    "name": "HAVELLSEQN"
+  },
+  {
+    "symbol": "CIPLA.NS",
+    "name": "CIPLAEQN"
+  },
+  {
+    "symbol": "COALINDIA.NS",
+    "name": "COALINDIAEQN"
+  },
+  {
+    "symbol": "UNIONBANK.NS",
+    "name": "UNIONBANKEQN"
+  },
+  {
+    "symbol": "CHAMBLFERT.NS",
+    "name": "CHAMBLFERTEQN"
+  },
+  {
+    "symbol": "LTF.NS",
+    "name": "LTFEQN"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "name": "AXISBANKEQN"
+  },
+  {
+    "symbol": "BIOCON.NS",
+    "name": "BIOCONEQN"
+  },
+  {
+    "symbol": "SWIGGY.NS",
+    "name": "SWIGGYEQN"
+  },
+  {
+    "symbol": "NAM-INDIA.NS",
+    "name": "NAM-INDIAEQN"
+  },
+  {
+    "symbol": "MANYAVAR.NS",
+    "name": "MANYAVAREQN"
+  },
+  {
+    "symbol": "SBIN.NS",
+    "name": "SBINEQN"
+  },
+  {
+    "symbol": "DLF.NS",
+    "name": "DLFEQN"
+  },
+  {
+    "symbol": "BLUEDART.NS",
+    "name": "BLUEDARTEQN"
+  },
+  {
+    "symbol": "NTPCGREEN.NS",
+    "name": "NTPCGREENEQN"
+  },
+  {
+    "symbol": "GUJGASLTD.NS",
+    "name": "GUJGASLTDEQN"
+  },
+  {
+    "symbol": "HSCL.NS",
+    "name": "HSCLEQN"
+  },
+  {
+    "symbol": "CONCORDBIO.NS",
+    "name": "CONCORDBIOEQN"
+  },
+  {
+    "symbol": "JUBLFOOD.NS",
+    "name": "JUBLFOODEQN"
+  },
+  {
+    "symbol": "METROPOLIS.NS",
+    "name": "METROPOLISEQN"
+  },
+  {
+    "symbol": "BASF.NS",
+    "name": "BASFEQN"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "name": "COLPALEQN"
+  },
+  {
+    "symbol": "ASTRAZEN.NS",
+    "name": "ASTRAZENEQN"
+  },
+  {
+    "symbol": "PNB.NS",
+    "name": "PNBEQN"
+  },
+  {
+    "symbol": "IGL.NS",
+    "name": "IGLEQN"
+  },
+  {
+    "symbol": "SIEMENS.NS",
+    "name": "SIEMENSEQN"
+  },
+  {
+    "symbol": "IOB.NS",
+    "name": "IOBEQN"
+  },
+  {
+    "symbol": "IRFC.NS",
+    "name": "IRFCEQN"
+  },
+  {
+    "symbol": "VMM.NS",
+    "name": "VMMEQN"
+  },
+  {
+    "symbol": "LTFOODS.NS",
+    "name": "LTFOODSEQN"
+  },
+  {
+    "symbol": "CARBORUNIV.NS",
+    "name": "CARBORUNIVEQN"
+  },
+  {
+    "symbol": "BANKBARODA.NS",
+    "name": "BANKBARODAEQN"
+  },
+  {
+    "symbol": "MMTC.NS",
+    "name": "MMTCEQN"
+  },
+  {
+    "symbol": "LINDEINDIA.NS",
+    "name": "LINDEINDIAEQN"
+  },
+  {
+    "symbol": "AJANTPHARM.NS",
+    "name": "AJANTPHARMEQN"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "name": "HDFCBANKEQN"
+  },
+  {
+    "symbol": "BAJAJHFL.NS",
+    "name": "BAJAJHFLEQN"
+  },
+  {
+    "symbol": "FEDERALBNK.NS",
+    "name": "FEDERALBNKEQN"
+  },
+  {
+    "symbol": "ULTRACEMCO.NS",
+    "name": "ULTRACEMCOEQN"
+  },
+  {
+    "symbol": "LALPATHLAB.NS",
+    "name": "LALPATHLABEQN"
+  },
+  {
+    "symbol": "PCBL.NS",
+    "name": "PCBLEQN"
+  },
+  {
+    "symbol": "UBL.NS",
+    "name": "UBLEQN"
+  },
+  {
+    "symbol": "INOXINDIA.NS",
+    "name": "INOXINDIAEQN"
+  },
+  {
+    "symbol": "RECLTD.NS",
+    "name": "RECLTDEQN"
+  },
+  {
+    "symbol": "SONACOMS.NS",
+    "name": "SONACOMSEQN"
+  },
+  {
+    "symbol": "NUVOCO.NS",
+    "name": "NUVOCOEQN"
+  },
+  {
+    "symbol": "DEEPAKNTR.NS",
+    "name": "DEEPAKNTREQN"
+  },
+  {
+    "symbol": "SOBHA.NS",
+    "name": "SOBHAEQN"
+  },
+  {
+    "symbol": "GODREJAGRO.NS",
+    "name": "GODREJAGROEQN"
+  },
+  {
+    "symbol": "HONAUT.NS",
+    "name": "HONAUTEQN"
+  },
+  {
+    "symbol": "NATIONALUM.NS",
+    "name": "NATIONALUMEQN"
+  },
+  {
+    "symbol": "MARICO.NS",
+    "name": "MARICOEQN"
+  },
+  {
+    "symbol": "BANKINDIA.NS",
+    "name": "BANKINDIAEQN"
+  },
+  {
+    "symbol": "3MINDIA.NS",
+    "name": "3MINDIAEQN"
+  },
+  {
+    "symbol": "THELEELA.NS",
+    "name": "THELEELAEQN"
+  },
+  {
+    "symbol": "PIDILITIND.NS",
+    "name": "PIDILITINDEQN"
+  },
+  {
+    "symbol": "IKS.NS",
+    "name": "IKSEQN"
+  },
+  {
+    "symbol": "IDFCFIRSTB.NS",
+    "name": "IDFCFIRSTBEQN"
+  },
+  {
+    "symbol": "JPPOWER.NS",
+    "name": "JPPOWEREQN"
+  },
+  {
+    "symbol": "ABSLAMC.NS",
+    "name": "ABSLAMCEQN"
+  },
+  {
+    "symbol": "INDIACEM.NS",
+    "name": "INDIACEMEQN"
+  },
+  {
+    "symbol": "GRASIM.NS",
+    "name": "GRASIMEQN"
+  },
+  {
+    "symbol": "CENTRALBK.NS",
+    "name": "CENTRALBKEQN"
+  },
+  {
+    "symbol": "IOC.NS",
+    "name": "IOCEQN"
+  },
+  {
+    "symbol": "KAYNES.NS",
+    "name": "KAYNESEQN"
+  },
+  {
+    "symbol": "APLLTD.NS",
+    "name": "APLLTDEQN"
+  },
+  {
+    "symbol": "GVT&D.NS",
+    "name": "GVT&DEQN"
+  },
+  {
+    "symbol": "TATACONSUM.NS",
+    "name": "TATACONSUMEQN"
+  },
+  {
+    "symbol": "CANFINHOME.NS",
+    "name": "CANFINHOMEEQN"
+  },
+  {
+    "symbol": "BPCL.NS",
+    "name": "BPCLEQN"
+  },
+  {
+    "symbol": "NAVINFLUOR.NS",
+    "name": "NAVINFLUOREQN"
+  },
+  {
+    "symbol": "TATAINVEST.NS",
+    "name": "TATAINVESTEQN"
+  },
+  {
+    "symbol": "PNBHOUSING.NS",
+    "name": "PNBHOUSINGEQN"
+  },
+  {
+    "symbol": "NIVABUPA.NS",
+    "name": "NIVABUPAEQN"
+  },
+  {
+    "symbol": "BLUESTARCO.NS",
+    "name": "BLUESTARCOEQN"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "name": "ICICIBANKEQN"
+  },
+  {
+    "symbol": "CHENNPETRO.NS",
+    "name": "CHENNPETROEQN"
+  },
+  {
+    "symbol": "GMRAIRPORT.NS",
+    "name": "GMRAIRPORTEQN"
+  },
+  {
+    "symbol": "BEML.NS",
+    "name": "BEMLEQN"
+  },
+  {
+    "symbol": "TRITURBINE.NS",
+    "name": "TRITURBINEEQN"
+  },
+  {
+    "symbol": "UNITDSPR.NS",
+    "name": "UNITDSPREQN"
+  },
+  {
+    "symbol": "PPLPHARMA.NS",
+    "name": "PPLPHARMAEQN"
+  },
+  {
+    "symbol": "SUPREMEIND.NS",
+    "name": "SUPREMEINDEQN"
+  },
+  {
+    "symbol": "BALRAMCHIN.NS",
+    "name": "BALRAMCHINEQN"
+  },
+  {
+    "symbol": "ABCAPITAL.NS",
+    "name": "ABCAPITALEQN"
+  },
+  {
+    "symbol": "IDBI.NS",
+    "name": "IDBIEQN"
+  },
+  {
+    "symbol": "ARE&M.NS",
+    "name": "ARE&MEQN"
+  },
+  {
+    "symbol": "MAHSEAMLES.NS",
+    "name": "MAHSEAMLESEQN"
+  },
+  {
+    "symbol": "ABB.NS",
+    "name": "ABBEQN"
+  },
+  {
+    "symbol": "CHOLAHLDNG.NS",
+    "name": "CHOLAHLDNGEQN"
+  },
+  {
+    "symbol": "ZFCVINDIA.NS",
+    "name": "ZFCVINDIAEQN"
+  },
+  {
+    "symbol": "DABUR.NS",
+    "name": "DABUREQN"
+  },
+  {
+    "symbol": "SYNGENE.NS",
+    "name": "SYNGENEEQN"
+  },
+  {
+    "symbol": "IEX.NS",
+    "name": "IEXEQN"
+  },
+  {
+    "symbol": "JWL.NS",
+    "name": "JWLEQN"
+  },
+  {
+    "symbol": "DEVYANI.NS",
+    "name": "DEVYANIEQN"
+  },
+  {
+    "symbol": "SKFINDIA.NS",
+    "name": "SKFINDIAEQN"
+  },
+  {
+    "symbol": "JINDALSTEL.NS",
+    "name": "JINDALSTELEQN"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "name": "HFCLEQN"
+  },
+  {
+    "symbol": "RITES.NS",
+    "name": "RITESEQN"
+  },
+  {
+    "symbol": "INDGN.NS",
+    "name": "INDGNEQN"
+  },
+  {
+    "symbol": "KAJARIACER.NS",
+    "name": "KAJARIACEREQN"
+  },
+  {
+    "symbol": "EICHERMOT.NS",
+    "name": "EICHERMOTEQN"
+  },
+  {
+    "symbol": "KALYANKJIL.NS",
+    "name": "KALYANKJILEQN"
+  },
+  {
+    "symbol": "ERIS.NS",
+    "name": "ERISEQN"
+  },
+  {
+    "symbol": "BHARATFORG.NS",
+    "name": "BHARATFORGEQN"
+  },
+  {
+    "symbol": "GODREJCP.NS",
+    "name": "GODREJCPEQN"
+  },
+  {
+    "symbol": "PHOENIXLTD.NS",
+    "name": "PHOENIXLTDEQN"
+  },
+  {
+    "symbol": "CHOICEIN.NS",
+    "name": "CHOICEINEQN"
+  },
+  {
+    "symbol": "BHARTIHEXA.NS",
+    "name": "BHARTIHEXAEQN"
+  },
+  {
+    "symbol": "MRF.NS",
+    "name": "MRFEQN"
+  },
+  {
+    "symbol": "LICHSGFIN.NS",
+    "name": "LICHSGFINEQN"
+  },
+  {
+    "symbol": "ITC.NS",
+    "name": "ITCEQN"
+  },
+  {
+    "symbol": "CROMPTON.NS",
+    "name": "CROMPTONEQN"
+  },
+  {
+    "symbol": "TECHNOE.NS",
+    "name": "TECHNOEEQN"
+  },
+  {
+    "symbol": "VTL.NS",
+    "name": "VTLEQN"
+  },
+  {
+    "symbol": "DIXON.NS",
+    "name": "DIXONEQN"
+  },
+  {
+    "symbol": "HDFCAMC.NS",
+    "name": "HDFCAMCEQN"
+  },
+  {
+    "symbol": "BIKAJI.NS",
+    "name": "BIKAJIEQN"
+  },
+  {
+    "symbol": "PFIZER.NS",
+    "name": "PFIZEREQN"
+  },
+  {
+    "symbol": "INDIGO.NS",
+    "name": "INDIGOEQN"
+  },
+  {
+    "symbol": "CENTURYPLY.NS",
+    "name": "CENTURYPLYEQN"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "name": "KOTAKBANKEQN"
+  },
+  {
+    "symbol": "SAIL.NS",
+    "name": "SAILEQN"
+  },
+  {
+    "symbol": "SAREGAMA.NS",
+    "name": "SAREGAMAEQN"
+  },
+  {
+    "symbol": "BATAINDIA.NS",
+    "name": "BATAINDIAEQN"
+  },
+  {
+    "symbol": "AKZOINDIA.NS",
+    "name": "AKZOINDIAEQN"
+  },
+  {
+    "symbol": "KARURVYSYA.NS",
+    "name": "KARURVYSYAEQN"
+  },
+  {
+    "symbol": "JKCEMENT.NS",
+    "name": "JKCEMENTEQN"
+  },
+  {
+    "symbol": "INTELLECT.NS",
+    "name": "INTELLECTEQN"
+  },
+  {
+    "symbol": "COHANCE.NS",
+    "name": "COHANCEEQN"
+  },
+  {
+    "symbol": "HINDUNILVR.NS",
+    "name": "HINDUNILVREQN"
+  },
+  {
+    "symbol": "M&M.NS",
+    "name": "M&MEQN"
+  },
+  {
+    "symbol": "NESTLEIND.NS",
+    "name": "NESTLEINDEQN"
+  },
+  {
+    "symbol": "GODFRYPHLP.NS",
+    "name": "GODFRYPHLPEQN"
+  },
+  {
+    "symbol": "SHREECEM.NS",
+    "name": "SHREECEMEQN"
+  },
+  {
+    "symbol": "MSUMI.NS",
+    "name": "MSUMIEQN"
+  },
+  {
+    "symbol": "LT.NS",
+    "name": "LTEQN"
+  },
+  {
+    "symbol": "GODIGIT.NS",
+    "name": "GODIGITEQN"
+  },
+  {
+    "symbol": "LATENTVIEW.NS",
+    "name": "LATENTVIEWEQN"
+  },
+  {
+    "symbol": "CAPLIPOINT.NS",
+    "name": "CAPLIPOINTEQN"
+  },
+  {
+    "symbol": "MOTHERSON.NS",
+    "name": "MOTHERSONEQN"
+  },
+  {
+    "symbol": "ABBOTINDIA.NS",
+    "name": "ABBOTINDIAEQN"
+  },
+  {
+    "symbol": "INDIANB.NS",
+    "name": "INDIANBEQN"
+  },
+  {
+    "symbol": "VGUARD.NS",
+    "name": "VGUARDEQN"
+  },
+  {
+    "symbol": "HINDPETRO.NS",
+    "name": "HINDPETROEQN"
+  },
+  {
+    "symbol": "BBTC.NS",
+    "name": "BBTCEQN"
+  },
+  {
+    "symbol": "ASIANPAINT.NS",
+    "name": "ASIANPAINTEQN"
+  },
+  {
+    "symbol": "GAIL.NS",
+    "name": "GAILEQN"
+  },
+  {
+    "symbol": "NTPC.NS",
+    "name": "NTPCEQN"
+  },
+  {
+    "symbol": "CRISIL.NS",
+    "name": "CRISILEQN"
+  },
+  {
+    "symbol": "UTIAMC.NS",
+    "name": "UTIAMCEQN"
+  },
+  {
+    "symbol": "KSB.NS",
+    "name": "KSBEQN"
+  },
+  {
+    "symbol": "PGEL.NS",
+    "name": "PGELEQN"
+  },
+  {
+    "symbol": "DMART.NS",
+    "name": "DMARTEQN"
+  },
+  {
+    "symbol": "IRB.NS",
+    "name": "IRBEQN"
+  },
+  {
+    "symbol": "GSPL.NS",
+    "name": "GSPLEQN"
+  },
+  {
+    "symbol": "CUMMINSIND.NS",
+    "name": "CUMMINSINDEQN"
+  },
+  {
+    "symbol": "AMBER.NS",
+    "name": "AMBEREQN"
+  },
+  {
+    "symbol": "EMAMILTD.NS",
+    "name": "EMAMILTDEQN"
+  },
+  {
+    "symbol": "RAINBOW.NS",
+    "name": "RAINBOWEQN"
+  },
+  {
+    "symbol": "MCX.NS",
+    "name": "MCXEQN"
+  },
+  {
+    "symbol": "TVSMOTOR.NS",
+    "name": "TVSMOTOREQN"
+  },
+  {
+    "symbol": "NHPC.NS",
+    "name": "NHPCEQN"
+  },
+  {
+    "symbol": "JYOTHYLAB.NS",
+    "name": "JYOTHYLABEQN"
+  },
+  {
+    "symbol": "CEATLTD.NS",
+    "name": "CEATLTDEQN"
+  },
+  {
+    "symbol": "JINDALSAW.NS",
+    "name": "JINDALSAWEQN"
+  },
+  {
+    "symbol": "CASTROLIND.NS",
+    "name": "CASTROLINDEQN"
+  },
+  {
+    "symbol": "AIIL.NS",
+    "name": "AIILEQN"
+  },
+  {
+    "symbol": "VEDL.NS",
+    "name": "VEDLEQN"
+  },
+  {
+    "symbol": "BAJAJ-AUTO.NS",
+    "name": "BAJAJ-AUTOEQN"
+  },
+  {
+    "symbol": "APLAPOLLO.NS",
+    "name": "APLAPOLLOEQN"
+  },
+  {
+    "symbol": "GLAND.NS",
+    "name": "GLANDEQN"
+  },
+  {
+    "symbol": "OBEROIRLTY.NS",
+    "name": "OBEROIRLTYEQN"
+  },
+  {
+    "symbol": "RVNL.NS",
+    "name": "RVNLEQN"
+  },
+  {
+    "symbol": "APOLLOHOSP.NS",
+    "name": "APOLLOHOSPEQN"
+  },
+  {
+    "symbol": "MARUTI.NS",
+    "name": "MARUTIEQN"
+  },
+  {
+    "symbol": "BRITANNIA.NS",
+    "name": "BRITANNIAEQN"
+  },
+  {
+    "symbol": "BEL.NS",
+    "name": "BELEQN"
+  },
+  {
+    "symbol": "SCHNEIDER.NS",
+    "name": "SCHNEIDEREQN"
+  },
+  {
+    "symbol": "SWANCORP.NS",
+    "name": "SWANCORPEQN"
+  },
+  {
+    "symbol": "IIFL.NS",
+    "name": "IIFLEQN"
+  },
+  {
+    "symbol": "SBILIFE.NS",
+    "name": "SBILIFEEQN"
+  },
+  {
+    "symbol": "MOTILALOFS.NS",
+    "name": "MOTILALOFSEQN"
+  },
+  {
+    "symbol": "J&KBANK.NS",
+    "name": "J&KBANKEQN"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "name": "DIVISLABEQN"
+  },
+  {
+    "symbol": "SRF.NS",
+    "name": "SRFEQN"
+  },
+  {
+    "symbol": "AEGISVOPAK.NS",
+    "name": "AEGISVOPAKEQN"
+  },
+  {
+    "symbol": "FINPIPE.NS",
+    "name": "FINPIPEEQN"
+  },
+  {
+    "symbol": "JSWENERGY.NS",
+    "name": "JSWENERGYEQN"
+  },
+  {
+    "symbol": "AWL.NS",
+    "name": "AWLEQN"
+  },
+  {
+    "symbol": "MAXHEALTH.NS",
+    "name": "MAXHEALTHEQN"
+  },
+  {
+    "symbol": "NCC.NS",
+    "name": "NCCEQN"
+  },
+  {
+    "symbol": "GRAPHITE.NS",
+    "name": "GRAPHITEEQN"
+  },
+  {
+    "symbol": "LLOYDSME.NS",
+    "name": "LLOYDSMEEQN"
+  },
+  {
+    "symbol": "CGPOWER.NS",
+    "name": "CGPOWEREQN"
+  },
+  {
+    "symbol": "SHRIRAMFIN.NS",
+    "name": "SHRIRAMFINEQN"
+  },
+  {
+    "symbol": "NAVA.NS",
+    "name": "NAVAEQN"
+  },
+  {
+    "symbol": "ASAHIINDIA.NS",
+    "name": "ASAHIINDIAEQN"
+  },
+  {
+    "symbol": "AUBANK.NS",
+    "name": "AUBANKEQN"
+  },
+  {
+    "symbol": "TATASTEEL.NS",
+    "name": "TATASTEELEQN"
+  },
+  {
+    "symbol": "NH.NS",
+    "name": "NHEQN"
+  },
+  {
+    "symbol": "BRIGADE.NS",
+    "name": "BRIGADEEQN"
+  },
+  {
+    "symbol": "GMDCLTD.NS",
+    "name": "GMDCLTDEQN"
+  },
+  {
+    "symbol": "NEULANDLAB.NS",
+    "name": "NEULANDLABEQN"
+  },
+  {
+    "symbol": "SIGNATURE.NS",
+    "name": "SIGNATUREEQN"
+  },
+  {
+    "symbol": "JSWINFRA.NS",
+    "name": "JSWINFRAEQN"
+  },
+  {
+    "symbol": "TIMKEN.NS",
+    "name": "TIMKENEQN"
+  },
+  {
+    "symbol": "BAJAJHLDNG.NS",
+    "name": "BAJAJHLDNGEQN"
+  },
+  {
+    "symbol": "HINDZINC.NS",
+    "name": "HINDZINCEQN"
+  },
+  {
+    "symbol": "HEG.NS",
+    "name": "HEGEQN"
+  },
+  {
+    "symbol": "APTUS.NS",
+    "name": "APTUSEQN"
+  },
+  {
+    "symbol": "ESCORTS.NS",
+    "name": "ESCORTSEQN"
+  },
+  {
+    "symbol": "PAYTM.NS",
+    "name": "PAYTMEQN"
+  },
+  {
+    "symbol": "RKFORGE.NS",
+    "name": "RKFORGEEQN"
+  },
+  {
+    "symbol": "NUVAMA.NS",
+    "name": "NUVAMAEQN"
+  },
+  {
+    "symbol": "SHYAMMETL.NS",
+    "name": "SHYAMMETLEQN"
+  },
+  {
+    "symbol": "CERA.NS",
+    "name": "CERAEQN"
+  },
+  {
+    "symbol": "ASHOKLEY.NS",
+    "name": "ASHOKLEYEQN"
+  },
+  {
+    "symbol": "POLICYBZR.NS",
+    "name": "POLICYBZREQN"
+  },
+  {
+    "symbol": "UCOBANK.NS",
+    "name": "UCOBANKEQN"
+  },
+  {
+    "symbol": "WHIRLPOOL.NS",
+    "name": "WHIRLPOOLEQN"
+  },
+  {
+    "symbol": "NBCC.NS",
+    "name": "NBCCEQN"
+  },
+  {
+    "symbol": "AFFLE.NS",
+    "name": "AFFLEEQN"
+  },
+  {
+    "symbol": "SAPPHIRE.NS",
+    "name": "SAPPHIREEQN"
+  },
+  {
+    "symbol": "MAHSCOOTER.NS",
+    "name": "MAHSCOOTERBEN"
+  },
+  {
+    "symbol": "RBLBANK.NS",
+    "name": "RBLBANKEQN"
+  },
+  {
+    "symbol": "JSWSTEEL.NS",
+    "name": "JSWSTEELEQN"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "name": "PVRINOXEQN"
+  },
+  {
+    "symbol": "COROMANDEL.NS",
+    "name": "COROMANDELEQN"
+  },
+  {
+    "symbol": "BOSCHLTD.NS",
+    "name": "BOSCHLTDEQN"
+  },
+  {
+    "symbol": "TMPV.NS",
+    "name": "TMPVEQN"
+  },
+  {
+    "symbol": "WELCORP.NS",
+    "name": "WELCORPEQN"
+  },
+  {
+    "symbol": "MANAPPURAM.NS",
+    "name": "MANAPPURAMEQN"
+  },
+  {
+    "symbol": "BAYERCROP.NS",
+    "name": "BAYERCROPEQN"
+  },
+  {
+    "symbol": "MAPMYINDIA.NS",
+    "name": "MAPMYINDIAEQN"
+  },
+  {
+    "symbol": "HUDCO.NS",
+    "name": "HUDCOEQN"
+  },
+  {
+    "symbol": "TORNTPHARM.NS",
+    "name": "TORNTPHARMEQN"
+  },
+  {
+    "symbol": "DALBHARAT.NS",
+    "name": "DALBHARATEQN"
+  },
+  {
+    "symbol": "PRESTIGE.NS",
+    "name": "PRESTIGEEQN"
+  },
+  {
+    "symbol": "SBFC.NS",
+    "name": "SBFCEQN"
+  },
+  {
+    "symbol": "INOXWIND.NS",
+    "name": "INOXWINDEQN"
+  },
+  {
+    "symbol": "JBCHEPHARM.NS",
+    "name": "JBCHEPHARMEQN"
+  },
+  {
+    "symbol": "CHOLAFIN.NS",
+    "name": "CHOLAFINEQN"
+  },
+  {
+    "symbol": "SAILIFE.NS",
+    "name": "SAILIFEEQN"
+  },
+  {
+    "symbol": "IDEA.NS",
+    "name": "IDEAEQN"
+  },
+  {
+    "symbol": "DELHIVERY.NS",
+    "name": "DELHIVERYEQN"
+  },
+  {
+    "symbol": "TATACOMM.NS",
+    "name": "TATACOMMEQN"
+  },
+  {
+    "symbol": "NYKAA.NS",
+    "name": "NYKAAEQN"
+  },
+  {
+    "symbol": "GPIL.NS",
+    "name": "GPILEQN"
+  },
+  {
+    "symbol": "TATAPOWER.NS",
+    "name": "TATAPOWEREQN"
+  },
+  {
+    "symbol": "MEDANTA.NS",
+    "name": "MEDANTAEQN"
+  },
+  {
+    "symbol": "ANANDRATHI.NS",
+    "name": "ANANDRATHIEQN"
+  },
+  {
+    "symbol": "DOMS.NS",
+    "name": "DOMSEQN"
+  },
+  {
+    "symbol": "M&MFIN.NS",
+    "name": "M&MFINEQN"
+  },
+  {
+    "symbol": "EMCURE.NS",
+    "name": "EMCUREEQN"
+  },
+  {
+    "symbol": "USHAMART.NS",
+    "name": "USHAMARTEQN"
+  },
+  {
+    "symbol": "HBLENGINE.NS",
+    "name": "HBLENGINEEQN"
+  },
+  {
+    "symbol": "MRPL.NS",
+    "name": "MRPLEQN"
+  },
+  {
+    "symbol": "POLYMED.NS",
+    "name": "POLYMEDEQN"
+  },
+  {
+    "symbol": "JSL.NS",
+    "name": "JSLEQN"
+  },
+  {
+    "symbol": "VBL.NS",
+    "name": "VBLEQN"
+  },
+  {
+    "symbol": "PIIND.NS",
+    "name": "PIINDEQN"
+  },
+  {
+    "symbol": "CRAFTSMAN.NS",
+    "name": "CRAFTSMANEQN"
+  },
+  {
+    "symbol": "TMCV.NS",
+    "name": "TMCVBEN"
+  },
+  {
+    "symbol": "CUB.NS",
+    "name": "CUBEQN"
+  },
+  {
+    "symbol": "MUTHOOTFIN.NS",
+    "name": "MUTHOOTFINEQN"
+  },
+  {
+    "symbol": "FIVESTAR.NS",
+    "name": "FIVESTAREQN"
+  },
+  {
+    "symbol": "GODREJIND.NS",
+    "name": "GODREJINDEQN"
+  },
+  {
+    "symbol": "SUNDARMFIN.NS",
+    "name": "SUNDARMFINEQN"
+  },
+  {
+    "symbol": "FORTIS.NS",
+    "name": "FORTISEQN"
+  },
+  {
+    "symbol": "HOMEFIRST.NS",
+    "name": "HOMEFIRSTEQN"
+  },
+  {
+    "symbol": "KPRMILL.NS",
+    "name": "KPRMILLEQN"
+  },
+  {
+    "symbol": "EIHOTEL.NS",
+    "name": "EIHOTELEQN"
+  },
+  {
+    "symbol": "ATHERENERG.NS",
+    "name": "ATHERENERGEQN"
+  },
+  {
+    "symbol": "TORNTPOWER.NS",
+    "name": "TORNTPOWEREQN"
+  },
+  {
+    "symbol": "HINDCOPPER.NS",
+    "name": "HINDCOPPEREQN"
+  },
+  {
+    "symbol": "THERMAX.NS",
+    "name": "THERMAXEQN"
+  }
+]
