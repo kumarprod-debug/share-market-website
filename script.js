@@ -2,7 +2,8 @@
 const apiKey = ""a344cd6cb5msh33789bb5ade5caap1567b5jsn15a169906934";
 
 // ✅ CORS proxy to avoid GitHub Pages API block
-const proxyUrl = "https://corsproxy.io/?";
+const proxyUrl = "https://api.allorigins.win/raw?url=";
+
 const url = `${proxyUrl}https://yahoo-finance15.p.rapidapi.com/api/yahoo/qu/quote/${symbol}/financial-data`;
 
 
